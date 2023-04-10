@@ -7,7 +7,7 @@ Connect to our server via ssh and a private ssh key
 
 This assumes your pubic key has been added to the server and your private key is exported from putty in the proper format
 
-To trainsfer files:
+To transfer files:
 
 `pscp -i <private key location> <source> <destination>`
 
@@ -30,7 +30,7 @@ The & symbol allows the process to run in the background without tying up a term
 
 `jupyter notebook --no-browser --port=8889 &`
 
-Current reserved ports (so we don't interfere):
+Current reserved ports for Jupyter Notebooks (so we don't interfere):
 + Robert: 8889
 + Mark: 8890
 + Apoorva: 8891
