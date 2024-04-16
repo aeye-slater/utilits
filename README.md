@@ -36,16 +36,16 @@ The & symbol allows the process to run in the background without tying up a term
 `nohup jupyter notebook --no-browser --port=8889 &`
 
 Current reserved ports for Jupyter Notebooks (so we don't interfere):
-+ Robert: 8895,96
++ Robert: 8899,98
 + Mark: 8889,90
 + Apoorva: 8891,92
-+ Sriharsha: 8893,94
++ Mohammed: 8893,94
 
 Currently Reserved Ports for Tensorboard
 + Robert: 6001/2
 + Mark: 6003/4
 + Apoorva: 6005/6
-+ Sriharsha: 6007/8
++ Mohammed: 6007/8
 
 The "Y" drive is mounted on both servers at /mnt/share/Y
 
